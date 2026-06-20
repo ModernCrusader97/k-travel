@@ -1,0 +1,116 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --yellow: #F5C300;
+  --yellow-hover: #E0B000;
+  --black: #1A1A1A;
+  --white: #ffffff;
+  --gray-bg: #F7F7F7;
+  --gray-border: #E5E5E5;
+  --text: #222222;
+  --text-muted: #888888;
+  --radius: 12px;
+  --max: 1080px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+  color: var(--text);
+  background: var(--white);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: inherit; text-decoration: none; }
+button { cursor: pointer; border: none; background: none; font-family: inherit; font-size: inherit; }
+input, select, textarea { font-family: inherit; font-size: inherit; }
+
+.wrap {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 11px 24px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: opacity 0.15s, background 0.15s;
+  white-space: nowrap;
+}
+.btn:hover { opacity: 0.88; }
+.btn-yellow { background: var(--yellow); color: var(--black); }
+.btn-black { background: var(--black); color: var(--white); }
+.btn-outline { background: transparent; border: 1.5px solid var(--black); color: var(--black); }
+.btn-lg { padding: 14px 36px; font-size: 16px; border-radius: 10px; }
+.btn-full { width: 100%; }
+.btn-sm { padding: 8px 16px; font-size: 13px; }
+
+/* Form */
+.form-group { display: flex; flex-direction: column; gap: 6px; margin-bottom: 16px; }
+.form-group label { font-size: 13px; font-weight: 600; color: var(--text); }
+.form-input {
+  width: 100%;
+  padding: 11px 14px;
+  border: 1.5px solid var(--gray-border);
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.15s;
+  background: var(--white);
+}
+.form-input:focus { border-color: var(--yellow); }
+.form-input::placeholder { color: var(--text-muted); }
+
+/* Overlay */
+.overlay {
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex; align-items: center; justify-content: center;
+  z-index: 999;
+}
+.modal {
+  background: var(--white);
+  border-radius: var(--radius);
+  padding: 36px 40px;
+  width: 420px;
+  max-width: 90vw;
+  position: relative;
+}
+.modal-close {
+  position: absolute; top: 16px; right: 16px;
+  font-size: 20px; color: var(--text-muted);
+}
+
+/* Step indicator */
+.step-bar {
+  display: flex; align-items: center; gap: 0;
+  margin-bottom: 32px;
+}
+.step-item {
+  display: flex; align-items: center; gap: 8px; font-size: 13px;
+}
+.step-circle {
+  width: 28px; height: 28px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 13px; font-weight: 700;
+  background: var(--gray-border); color: var(--text-muted);
+}
+.step-circle.active { background: var(--yellow); color: var(--black); }
+.step-circle.done { background: var(--black); color: var(--white); }
+.step-line { flex: 1; height: 2px; background: var(--gray-border); margin: 0 8px; }
+.step-line.done { background: var(--black); }
+
+/* Section headers */
+.section-title {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+  line-height: 1.3;
+}

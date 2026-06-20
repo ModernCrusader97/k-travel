@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <rect width="300" height="300" rx="24" fill="#FFF3A0"/>
+  <text x="150" y="130" text-anchor="middle" font-size="80">🐱</text>
+  <text x="150" y="200" text-anchor="middle" font-size="14" fill="#888" font-family="sans-serif">캐릭터 일러스트</text>
+  <text x="150" y="220" text-anchor="middle" font-size="12" fill="#aaa" font-family="sans-serif">hero-character.png 으로 교체</text>
+</svg>
