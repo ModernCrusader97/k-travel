@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Body -->
+  <circle cx="32" cy="40" r="20" fill="#f59e0b"/>
+  <!-- Stripes on body -->
+  <rect x="24" y="30" width="4" height="16" rx="2" fill="#d97706" opacity="0.5"/>
+  <rect x="36" y="30" width="4" height="16" rx="2" fill="#d97706" opacity="0.5"/>
+  <!-- Head -->
+  <circle cx="32" cy="22" r="16" fill="#fbbf24"/>
+  <!-- Ears -->
+  <polygon points="18,8 14,0 22,6" fill="#f59e0b"/>
+  <polygon points="46,8 50,0 42,6" fill="#f59e0b"/>
+  <polygon points="18,8 15,3 21,6" fill="#fde68a"/>
+  <polygon points="46,8 49,3 43,6" fill="#fde68a"/>
+  <!-- Stripes on head -->
+  <rect x="28" y="8" width="3" height="8" rx="1.5" fill="#d97706" opacity="0.4" transform="rotate(-5 29 12)"/>
+  <rect x="33" y="8" width="3" height="8" rx="1.5" fill="#d97706" opacity="0.4" transform="rotate(5 34 12)"/>
+  <!-- Eyes -->
+  <circle cx="26" cy="20" r="3.5" fill="#1e293b"/>
+  <circle cx="38" cy="20" r="3.5" fill="#1e293b"/>
+  <circle cx="27" cy="19" r="1.2" fill="white"/>
+  <circle cx="39" cy="19" r="1.2" fill="white"/>
+  <!-- Nose -->
+  <ellipse cx="32" cy="26" rx="3" ry="2.5" fill="#b45309"/>
+  <!-- Smile -->
+  <path d="M27 30 Q32 35 37 30" stroke="#b45309" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Whiskers -->
+  <line x1="18" y1="27" x2="28" y2="28" stroke="#d97706" stroke-width="1" opacity="0.6"/>
+  <line x1="18" y1="30" x2="28" y2="30" stroke="#d97706" stroke-width="1" opacity="0.6"/>
+  <line x1="36" y1="28" x2="46" y2="27" stroke="#d97706" stroke-width="1" opacity="0.6"/>
+  <line x1="36" y1="30" x2="46" y2="30" stroke="#d97706" stroke-width="1" opacity="0.6"/>
+  <!-- Belly -->
+  <ellipse cx="32" cy="42" rx="11" ry="10" fill="#fde68a"/>
+</svg>

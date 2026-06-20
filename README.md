@@ -1,6 +1,6 @@
 # K-travel - 금융 서비스 플랫폼
 
-🌐 **Live Demo:** https://konda-app.lazzy.chat
+🌐 **Live Demo:** https://k-travel.lazzy.chat
 
 AI 코딩 툴(Claude Code)을 활용해 개발한 1인 풀스택 프로젝트입니다.
 

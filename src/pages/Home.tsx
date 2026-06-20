@@ -11,7 +11,7 @@ export default function Home() {
       <section className="hero-section">
         <div className="wrap hero-inner">
           <div className="hero-img">
-            <img src="/hero-character.png" alt="KONDA" className="hero-char-img" data-edit="히어로이미지" data-edit-type="image" />
+            <img src="/hero-character.svg" alt="K-travel" className="hero-char-img" data-edit="히어로이미지" data-edit-type="image" />
           </div>
           <div className="hero-text" data-edit="히어로텍스트" data-edit-type="text">
             <h1>{t.heroTitle.split('\n').map((line, i) => <span key={i}>{line}{i < t.heroTitle.split('\n').length - 1 && <br />}</span>)}</h1>
@@ -39,19 +39,19 @@ export default function Home() {
         </div>
         <div className="cards-fan">
           <div className="fan-card" data-edit="블랙카드" data-edit-type="card" style={{ left: '-2.4%',  transform: 'rotate(6.0deg)', zIndex: 1 }}>
-            <img src="/cards/card-black.png" alt="Black" className="fan-card-img" />
+            <img src="/cards/card-black.svg" alt="Black" className="fan-card-img" />
           </div>
           <div className="fan-card" data-edit="화이트카드" data-edit-type="card" style={{ left: '21.9%',  transform: 'rotate(2deg)', zIndex: 2 }}>
-            <img src="/cards/card-white.png" alt="White" className="fan-card-img" />
+            <img src="/cards/card-white.svg" alt="White" className="fan-card-img" />
           </div>
           <div className="fan-card" data-edit="옐로우카드" data-edit-type="card" style={{ left: '40%', transform: 'rotate(0deg)', zIndex: 5 }}>
-            <img src="/cards/card-yellow.png" alt="Yellow" className="fan-card-img" />
+            <img src="/cards/card-yellow.svg" alt="Yellow" className="fan-card-img" />
           </div>
           <div className="fan-card" data-edit="레드카드" data-edit-type="card" style={{ left: '63%',  transform: 'rotate(0deg)', zIndex: 1 }}>
-            <img src="/cards/card-red.png" alt="Red" className="fan-card-img" />
+            <img src="/cards/card-red.svg" alt="Red" className="fan-card-img" />
           </div>
           <div className="fan-card" data-edit="블루카드" data-edit-type="card" style={{ left: '85.1%',  transform: 'rotate(6.0deg)', zIndex: 3 }}>
-            <img src="/cards/card-blue.png" alt="Blue" className="fan-card-img" />
+            <img src="/cards/card-blue.svg" alt="Blue" className="fan-card-img" />
           </div>
         </div>
       </section>
@@ -86,7 +86,7 @@ export default function Home() {
                 <div className="review-likes">❤ 121</div>
               </div>
             </div>
-            <div className="review-card review-card--photo" style={{backgroundImage:"url('/app/review-photo-1.jpg')"}}>
+            <div className="review-card review-card--photo" style={{backgroundImage:"url('/app/review-photo-1.svg')"}}>
               <div className="review-inner">
                 <div className="review-card-header">
                   <div className="review-avatar">🐯</div>
@@ -112,7 +112,7 @@ export default function Home() {
                 <div className="review-likes">❤ 121</div>
               </div>
             </div>
-            <div className="review-card review-card--photo" style={{backgroundImage:"url('/app/review-photo-2.jpg')"}}>
+            <div className="review-card review-card--photo" style={{backgroundImage:"url('/app/review-photo-2.svg')"}}>
               <div className="review-inner">
                 <div className="review-card-header">
                   <div className="review-avatar">🐼</div>
@@ -138,7 +138,7 @@ export default function Home() {
                 <div className="review-likes">❤ 121</div>
               </div>
             </div>
-            <div className="review-card review-card--photo" style={{backgroundImage:"url('/app/review-photo-3.jpg')"}}>
+            <div className="review-card review-card--photo" style={{backgroundImage:"url('/app/review-photo-3.svg')"}}>
               <div className="review-inner">
                 <div className="review-card-header">
                   <div className="review-avatar">🦁</div>
@@ -167,7 +167,7 @@ export default function Home() {
           <div className="chat-list">
             <div className="chat-row chat-row--left">
               <div className="chat-bubble">
-                <img src="/app/char-bear.png" alt="bear" className="chat-avatar" />
+                <img src="/app/char-bear.svg" alt="bear" className="chat-avatar" />
                 <div className="chat-bubble-text">
                   {t.chat1a}<br />
                   <strong>{t.chat1b}</strong>
@@ -180,12 +180,12 @@ export default function Home() {
                   {t.chat2a}<br />
                   <strong>{t.chat2b}</strong>
                 </div>
-                <img src="/app/char-tiger.png" alt="tiger" className="chat-avatar" />
+                <img src="/app/char-tiger.svg" alt="tiger" className="chat-avatar" />
               </div>
             </div>
             <div className="chat-row chat-row--left">
               <div className="chat-bubble">
-                <img src="/app/char-bear.png" alt="bear" className="chat-avatar" />
+                <img src="/app/char-bear.svg" alt="bear" className="chat-avatar" />
                 <div className="chat-bubble-text">
                   <strong>{t.chat3a}</strong><br />
                   {t.chat3b}
@@ -198,7 +198,7 @@ export default function Home() {
                   {t.chat4a}<br />
                   <strong>{t.chat4b}</strong>
                 </div>
-                <img src="/app/char-tiger.png" alt="tiger" className="chat-avatar" />
+                <img src="/app/char-tiger.svg" alt="tiger" className="chat-avatar" />
               </div>
             </div>
           </div>

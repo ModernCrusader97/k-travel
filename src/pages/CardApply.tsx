@@ -48,12 +48,12 @@ export default function CardApply() {
   ]
 
   const CARDS = [
-    { id: 1, img: '/cards/card-dark.png', name: t.cardStreet, soldOut: false, card_type: 'street', color: 'dark' },
-    { id: 2, img: '/cards/card-navy.png', name: t.cardNavy, soldOut: false, card_type: 'navy', color: 'navy' },
-    { id: 3, img: '/cards/card-black.png', name: t.cardBlack, soldOut: true, card_type: 'black', color: 'black' },
-    { id: 4, img: '/cards/card-white.png', name: t.cardWhite, soldOut: false, card_type: 'white', color: 'white' },
-    { id: 5, img: '/cards/card-yellow.png', name: t.cardStandard, soldOut: true, card_type: 'standard', color: 'yellow' },
-    { id: 6, img: '/cards/card-red.png', name: t.cardRed, soldOut: true, card_type: 'red', color: 'red' },
+    { id: 1, img: '/cards/card-dark.svg', name: t.cardStreet, soldOut: false, card_type: 'street', color: 'dark' },
+    { id: 2, img: '/cards/card-navy.svg', name: t.cardNavy, soldOut: false, card_type: 'navy', color: 'navy' },
+    { id: 3, img: '/cards/card-black.svg', name: t.cardBlack, soldOut: true, card_type: 'black', color: 'black' },
+    { id: 4, img: '/cards/card-white.svg', name: t.cardWhite, soldOut: false, card_type: 'white', color: 'white' },
+    { id: 5, img: '/cards/card-yellow.svg', name: t.cardStandard, soldOut: true, card_type: 'standard', color: 'yellow' },
+    { id: 6, img: '/cards/card-red.svg', name: t.cardRed, soldOut: true, card_type: 'red', color: 'red' },
   ]
 
   const now = new Date()

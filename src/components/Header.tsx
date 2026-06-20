@@ -24,7 +24,7 @@ export default function Header() {
   return (
     <header className="header">
       <div className="wrap header-inner">
-        <Link to="/" className="logo"><img src="/logo.png" alt="KONDA" className="logo-img" data-edit="로고이미지" data-edit-type="image" /></Link>
+        <Link to="/" className="logo"><img src="/logo.svg" alt="K-travel" className="logo-img" data-edit="로고이미지" data-edit-type="image" /></Link>
 
         {/* Desktop nav */}
         <nav className="nav desktop-nav">

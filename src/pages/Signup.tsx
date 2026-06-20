@@ -113,8 +113,8 @@ export default function Signup() {
       </div>
       <div className="auth-left">
         <div className="auth-left-inner">
-          <img src="/logo.png?v=2" alt="KONDA" />
-          <img src="/hero-character.png?v=2" alt="KONDA" />
+          <img src="/logo.svg" alt="K-travel" />
+          <img src="/hero-character.svg" alt="K-travel" />
         </div>
       </div>
     </div>
