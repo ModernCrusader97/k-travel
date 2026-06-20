@@ -1,4 +1,4 @@
-# KONDA - 금융 서비스 플랫폼
+# K-travel - 금융 서비스 플랫폼
 
 🌐 **Live Demo:** https://konda-app.lazzy.chat
 
@@ -9,7 +9,7 @@ AI 코딩 툴(Claude Code)을 활용해 개발한 1인 풀스택 프로젝트입
 ## PRD (Product Requirements Document)
 
 ### 개요
-KONDA는 사용자가 잔액 충전, 카드 신청, 거래 내역 확인을 할 수 있는 금융 서비스 플랫폼입니다.
+K-travel은 사용자가 잔액 충전, 카드 신청, 거래 내역 확인을 할 수 있는 금융 서비스 플랫폼입니다.
 
 ### 타겟 유저
 - 간편한 금융 서비스를 원하는 일반 사용자
